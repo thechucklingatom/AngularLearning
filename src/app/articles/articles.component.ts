@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Article } from '../article'
-import { ARTICLES } from '../mock-articles'
+import { Article } from '../article';
+import { ARTICLES } from '../mock-articles';
 
 @Component({
   selector: 'app-articles',
@@ -8,7 +8,7 @@ import { ARTICLES } from '../mock-articles'
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent implements OnInit {
-  articles: Article[] = ARTICLES
+  articles: Article[] = ARTICLES;
 
   constructor() { }
 

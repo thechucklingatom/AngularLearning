@@ -5,8 +5,8 @@ describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        AppModule 
-      ],
+        AppModule
+      ]
     }).compileComponents();
   }));
   it('should create the app', async(() => {
